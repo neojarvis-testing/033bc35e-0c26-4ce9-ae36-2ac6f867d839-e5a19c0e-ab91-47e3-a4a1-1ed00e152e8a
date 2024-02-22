@@ -23,6 +23,11 @@ public class TVRemote {
         if (powerOn) {
             volume += amount;
             System.out.println("Volume: " + volume);
+<<<<<<< HEAD
+=======
+            System.out.println("Volume: " + volume);
+
+>>>>>>> Node.Js-Mongo-manojselvaraj12
         } else {
             System.out.println("Please turn on the TV first.");
         }
