@@ -5,6 +5,7 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Welcome to Calculator Program");
+        System.out.println("Welcome to Calculator Program");
 
         System.out.print("Enter the first number: ");
         double num1 = scanner.nextDouble();
