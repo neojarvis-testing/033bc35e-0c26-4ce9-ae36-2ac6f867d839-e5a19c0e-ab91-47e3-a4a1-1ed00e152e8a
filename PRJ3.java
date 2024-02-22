@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // TVRemote.java
 public class TVRemote {
     private boolean powerOn;
@@ -50,5 +51,30 @@ public class TVRemote {
         remote.changeVolume(10);
         remote.changeChannel(5);
         remote.togglePower();
+=======
+import java.util.Scanner;
+
+public class SimpleJavaProgram {
+    public static void main(String[] args) {
+        // Create a Scanner object to read input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter the first number
+        System.out.print("Enter the first number: ");
+        double number1 = scanner.nextDouble();
+
+        // Prompt the user to enter the second number
+        System.out.print("Enter the second number: ");
+        double number2 = scanner.nextDouble();
+
+        // Close the scanner to prevent resource leak
+        scanner.close();
+
+        // Calculate the sum of the two numbers
+        double sum = number1 + number2;
+
+        // Print the sum
+        System.out.println("The sum of " + number1 + " and " + number2 + " is: " + sum);
+>>>>>>> 10c5d7b0eb0b560efb961f062ded2a8f850fd04e
     }
 }
